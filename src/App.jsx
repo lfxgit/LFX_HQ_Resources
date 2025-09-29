@@ -1,6 +1,6 @@
 import './App.css'
 import { FaUserTie, FaFileInvoiceDollar, FaThLarge, FaHeadset } from 'react-icons/fa'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { FaCameraRetro } from 'react-icons/fa';
 import { FaPaintBrush } from 'react-icons/fa';
 import { FaBookOpen } from 'react-icons/fa';
