@@ -2,7 +2,7 @@
   "name": "lfx-hq-resources",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://lfxChris.github.io/LFX_HQ_Resources",
+"homepage": "https://lfxgit.github.io/LFX_HQ_Resources",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
