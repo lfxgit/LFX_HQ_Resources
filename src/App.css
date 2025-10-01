@@ -65,7 +65,6 @@ h1 {
 
 
 
-/* Helpdesk page styling */
 .helpdesk-container {
   display: flex;
   justify-content: center;
@@ -132,12 +131,25 @@ h1 {
   margin-top: 20px;
   font-size: 16px;
   text-decoration: none;
-  color: #d80000; /* hooker’s green */
+  color: #d80000; 
   transition: color 0.2s ease;
 }
 
 .back-home:hover {
-  color: #aa0101; /* dark green */
+  color: #aa0101; 
 }
+
+.links + .links {
+  margin-top: 20px; 
+}
+
+
+.card-img {
+  width: 120px;          
+  height: 120px;         
+  object-fit: contain; 
+  display: block;      
+}
+
 
 

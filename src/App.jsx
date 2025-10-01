@@ -8,6 +8,13 @@ import { FaAddressCard } from "react-icons/fa";
 import { FaRegSnowflake } from "react-icons/fa";
 import { FaCar } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
+import { MdOutlineMiscellaneousServices } from "react-icons/md";
+import CSConcreteLogo from './assets/CSConcreteGroup.png';
+import RPLogo from './assets/RP_Logo.png';
+import SupplyLogo from './assets/LFXSupply.png';
+import DriveLogo from './assets/TheDRIVE.png';
+import GroupLogo from './assets/RedTree.png';
+
 
 /* Reusable external link component */
 function ExternalLink({ url, children }) {
@@ -43,6 +50,7 @@ function Home() {
     <div className="container">
       <h1>LFX HQ Resources</h1>
 
+      {/* First section with your real links */}
       <div className="links">
         <ExternalLink url="https://lf01849.purelyhr.com/?returnUrl=https%3a%2f%2flf01849.purelyhr.com%2fcpanel%2fcalendar.aspx">
           <FaUserTie />
@@ -74,10 +82,7 @@ function Home() {
           <span>Odoo</span>
         </ExternalLink>
 
-        <a
-          href="mailto:help@landscapefx.com"
-          className="link-card"
-        >
+        <a href="mailto:help@landscapefx.com" className="link-card">
           <FaHeadset />
           <span>Help Desk</span>
         </a>
@@ -100,17 +105,46 @@ function Home() {
 
         <ExternalLink url="https://thedrivemagazine.com/issue/">
           <FaBookOpen />
-          <span>The Drive Magazine</span>
+          <span>Drive Magazine Request</span>
         </ExternalLink>
 
-          <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhV21RcM1tnxJgEkvZOrjMGpUNkY1TEpCR0I5RUcxVzI0QVVUMzMyREtXWC4u&route=shorturl">
-            <FaAddressCard />
-            <span>Business Card Request</span>
+        <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhV21RcM1tnxJgEkvZOrjMGpUNkY1TEpCR0I5RUcxVzI0QVVUMzMyREtXWC4u&route=shorturl">
+          <FaAddressCard />
+          <span>Business Card Request</span>
+        </ExternalLink>
+
+        <ExternalLink url="https://form.jotform.com/63543736394262">
+          <MdOutlineMiscellaneousServices />
+          <span>Service/Damage</span>
+        </ExternalLink>
+      </div>
+
+      <div className="links">
+
+        <ExternalLink url="https://thedrivemagazine.com/">
+          <img src={GroupLogo} alt="Group Logo" className="card-img" />
+        </ExternalLink>
+
+        <ExternalLink url="https://www.lfxsupplycentre.com/">
+          <img src={SupplyLogo} alt="Supply" className="card-img" />
+        </ExternalLink>
+
+        <ExternalLink url="https://rochesterplace.com/">
+          <img src={RPLogo} alt="RP" className="card-img" />
+        </ExternalLink>
+
+        <ExternalLink url="https://csconcretegroup.com/">
+          <img src={CSConcreteLogo} alt="CS Concrete" className="card-img" />
+        </ExternalLink>
+
+        <ExternalLink url="https://thedrivemagazine.com/">
+          <img src={DriveLogo} alt="The Drive" className="card-img" />
         </ExternalLink>
       </div>
     </div>
   );
 }
+
 
 function App() {
   return (
