@@ -114,8 +114,10 @@ function Home() {
         </ExternalLink>
       </div>
 
-      <div className="links">
 
+      {/* Section title for group of companies */}
+      <h1 className="companies-title">LFX Group Of Companies</h1>
+      <div className="links">
         <ExternalLink url="https://thedrivemagazine.com/">
           <img src={GroupLogo} alt="Group Logo" className="card-img" />
         </ExternalLink>
@@ -136,6 +138,8 @@ function Home() {
           <img src={DriveLogo} alt="The Drive" className="card-img" />
         </ExternalLink>
       </div>
+
+
     </div>
   );
 }

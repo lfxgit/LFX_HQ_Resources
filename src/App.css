@@ -151,5 +151,16 @@ h1 {
   display: block;      
 }
 
+.companies-title {
+  font-size: 2.5rem;      /* match the top h1 */
+  font-weight: bold;      /* same boldness */
+  text-align: center;     /* center align */
+  color: #ff2a00;         /* match your theme red */
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+
 
 
