@@ -3,7 +3,6 @@ import { FaUserTie, FaFileInvoiceDollar, FaThLarge, FaHeadset } from 'react-icon
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { FaCameraRetro } from 'react-icons/fa';
 import { FaPaintBrush } from 'react-icons/fa';
-import { FaBookOpen } from 'react-icons/fa';
 import { FaAddressCard } from "react-icons/fa";
 import { FaRegSnowflake } from "react-icons/fa";
 import { FaCar } from "react-icons/fa";
