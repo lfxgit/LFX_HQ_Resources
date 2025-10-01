@@ -10,7 +10,7 @@ import { FaCar } from "react-icons/fa";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { MdOutlineMiscellaneousServices } from "react-icons/md";
 import CSConcreteLogo from './assets/CSConcreteGroup.png';
-import RPLogo from './assets/RP_Logo.png';
+import RPLogo from './assets/RP_logo.png';
 import SupplyLogo from './assets/LFXSupply.png';
 import DriveLogo from './assets/TheDRIVE.png';
 import GroupLogo from './assets/RedTree.png';
