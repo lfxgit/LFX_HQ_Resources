@@ -103,11 +103,6 @@ function Home() {
           <span>Photography Request</span>
         </ExternalLink>
 
-        <ExternalLink url="https://thedrivemagazine.com/issue/">
-          <FaBookOpen />
-          <span>Drive Magazine Request</span>
-        </ExternalLink>
-
         <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhV21RcM1tnxJgEkvZOrjMGpUNkY1TEpCR0I5RUcxVzI0QVVUMzMyREtXWC4u&route=shorturl">
           <FaAddressCard />
           <span>Business Card Request</span>
