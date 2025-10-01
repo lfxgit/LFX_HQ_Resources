@@ -109,7 +109,7 @@ function Home() {
 
         <ExternalLink url="https://form.jotform.com/63543736394262">
           <MdOutlineMiscellaneousServices />
-          <span>Service/Damage</span>
+          <span>Equip Service / Damage</span>
         </ExternalLink>
       </div>
 
