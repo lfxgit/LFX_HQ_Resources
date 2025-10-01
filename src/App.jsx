@@ -117,7 +117,7 @@ function Home() {
       {/* Section title for group of companies */}
       <h1 className="companies-title">LFX Group Of Companies</h1>
       <div className="links">
-        <ExternalLink url="https://thedrivemagazine.com/">
+        <ExternalLink url="https://www.landscapefx.com/">
           <img src={GroupLogo} alt="Group Logo" className="card-img" />
         </ExternalLink>
 
