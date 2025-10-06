@@ -12,6 +12,7 @@ html, body, #root {
   text-align: center;
 }
 
+/* Headings */
 h1 {
   margin: 20px 0 40px 0;
   font-size: 3rem;
@@ -21,6 +22,16 @@ h1 {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 
+.companies-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ff2a00;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* Grid Layout */
 .links {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -29,6 +40,11 @@ h1 {
   margin: 0 auto;
 }
 
+.links + .links {
+  margin-top: 40px;
+}
+
+/* Cards */
 .link-card {
   background: #2e2e44;
   border-radius: 20px;
@@ -52,6 +68,7 @@ h1 {
   box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
+/* Icon Styling */
 .link-card svg {
   font-size: 3.5rem;
   color: #e62300;
@@ -62,104 +79,16 @@ h1 {
   color: #ff4d26;
 }
 
-
-
-.helpdesk-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px;
-}
-
-.helpdesk-card {
-  width: 100%;
-  max-width: 550px;
-  padding: 40px;
-  border-radius: 20px;
-}
-
-.helpdesk-card h2 {
-  text-align: center;
-  margin-bottom: 25px;
-  font-size: 2.5rem;
-  color: #e62300;
-}
-
-.helpdesk-form input,
-.helpdesk-form textarea {
-  width: 100%;
-  padding: 14px 16px;
-  margin-bottom: 18px;
-  border: none;
-  border-radius: 12px;
-  background: #3a3a55;
-  color: white;
-  font-size: 15px;
-  transition: all 0.3s ease;
-}
-
-.helpdesk-form input::placeholder,
-.helpdesk-form textarea::placeholder {
-  color: #aaa;
-}
-
-.helpdesk-form input:focus,
-.helpdesk-form textarea:focus {
-  background: #444466;
-  border: 1px solid #ce0f08;
-  box-shadow: 0 0 10px rgba(131, 2, 2, 0.5);
-  outline: none;
-}
-
-.helpdesk-form button {
-  width: 100%;
-  padding: 15px;
-  background: #e62300;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-.back-home {
-  display: inline-flex;
-  align-items: center;
-  margin-top: 20px;
-  font-size: 16px;
-  text-decoration: none;
-  color: #d80000; 
-  transition: color 0.2s ease;
-}
-
-.back-home:hover {
-  color: #aa0101; 
-}
-
-.links + .links {
-  margin-top: 20px; 
-}
-
-
+/* Company Logos */
 .card-img {
-  width: 120px;          
-  height: 120px;         
-  object-fit: contain; 
-  display: block;      
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
 }
 
-.companies-title {
-  font-size: 2.5rem;      /* match the top h1 */
-  font-weight: bold;      /* same boldness */
-  text-align: center;     /* center align */
-  color: #ff2a00;         /* match your theme red */
-  margin-top: 50px;
-  margin-bottom: 20px;
+.card-img:hover {
+  transform: scale(1.08);
 }
-
-
-
-
-
