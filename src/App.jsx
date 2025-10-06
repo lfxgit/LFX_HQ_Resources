@@ -8,7 +8,7 @@ import CSConcreteLogo from './assets/CSConcreteGroup.png';
 import RPLogo from './assets/RP_logo.png';
 import SupplyLogo from './assets/LFXSupply.png';
 import DriveLogo from './assets/TheDRIVE.png';
-import GroupLogo from './assets/RedTree.png';
+import GroupLogo from './assets/LFX_DB_Logo.png';
 
 /* Reusable external link component */
 function ExternalLink({ url, children }) {
