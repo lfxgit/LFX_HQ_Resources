@@ -4,6 +4,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { FaCameraRetro, FaPaintBrush, FaAddressCard, FaRegSnowflake, FaCar } from 'react-icons/fa';
 import { MdAccessTimeFilled, MdOutlineMiscellaneousServices } from "react-icons/md";
 import { AiFillPicture } from "react-icons/ai";
+import { FaCamera } from "react-icons/fa";
 import CSConcreteLogo from './assets/CSConcreteGroup.png';
 import RPLogo from './assets/RP_logo.png';
 import SupplyLogo from './assets/LFXSupply.png';
@@ -81,6 +82,10 @@ function Home() {
       <div className="links">
         <ExternalLink url="https://www.lfxsupplycentre.com/web/login#cids=6&action=menu">
           <FaThLarge /><span>Odoo</span>
+        </ExternalLink>
+
+        <ExternalLink url="https://app.companycam.com/users/sign_in">
+          <FaCamera /><span>CompanyCam</span>
         </ExternalLink>
 
         <ExternalLink url="https://app.yetisoftware.com/dispatch">
