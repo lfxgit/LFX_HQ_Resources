@@ -10,8 +10,6 @@ import RPLogo from './assets/RP_logo.png';
 import SupplyLogo from './assets/LFXSupply.png';
 import DriveLogo from './assets/TheDRIVE.png';
 import GroupLogo from './assets/LFX_DB_Logo.png';
-import { GiHighGrass } from "react-icons/gi";
-
 
 /* Reusable external link component */
 function ExternalLink({ url, children }) {
@@ -101,12 +99,6 @@ function Home() {
         <ExternalLink url="https://form.jotform.com/63543736394262">
           <MdOutlineMiscellaneousServices /><span>Equip Service / Damage</span>
         </ExternalLink>
-
-        <ExternalLink url="https://form.jotform.com/253074861364056">
-          <GiHighGrass /><span>Pesticides Application</span>
-        </ExternalLink>
-
-        
       </div>
 
       <h1 className="companies-title">LFX Group Of Companies</h1>
