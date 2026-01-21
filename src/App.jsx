@@ -11,6 +11,8 @@ import SupplyLogo from './assets/LFXSupply.png';
 import DriveLogo from './assets/TheDRIVE.png';
 import GroupLogo from './assets/LFX_DB_Logo.png';
 import { GiHighGrass } from "react-icons/gi";
+import { MdFormatListBulleted } from "react-icons/md";
+
 
 
 /* Reusable external link component */
@@ -53,7 +55,7 @@ function Home() {
         </ExternalLink>
 
         <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhYQKJxD9jK5PhW9EGz09kONUNk1TN0pCVlZPNENNRTAzSUw5SzVQQk9ERS4u&route=shorturl">
-          <FaUserTie /><span>Purchase Approval Form</span>
+          <MdFormatListBulleted /><span>Purchase Approval Form</span>
         </ExternalLink>
       </div>
 
