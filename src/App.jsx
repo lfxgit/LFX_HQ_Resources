@@ -43,17 +43,17 @@ function Home() {
         <ExternalLink url="https://online.adp.com/signin/v1/?APPID=Pin4NAS">
           <FaFileInvoiceDollar /><span>ADP</span>
         </ExternalLink>
-
-        <ExternalLink url="https://lf01849.purelyhr.com/?returnUrl=https%3a%2f%2flf01849.purelyhr.com%2fcpanel%2fcalendar.aspx">
-          <FaUserTie /><span>PurelyHR</span>
-        </ExternalLink>
-
+        
         <ExternalLink url="https://platform.risepeople.com/app/#/auth/">
           <FaUserTie /><span>Rise</span>
         </ExternalLink>
 
         <ExternalLink url="https://landscapefx-my.sharepoint.com/:x:/p/cbolton/EWlnAYRr4IFOuh_I1Lgmrc8B-a2ikYAThTZwy8cdvDRzdA?e=bS4VN0">
           <FaFileInvoiceDollar /><span>Expense Report</span>
+        </ExternalLink>
+
+        <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhYQKJxD9jK5PhW9EGz09kONUNk1TN0pCVlZPNENNRTAzSUw5SzVQQk9ERS4u&route=shorturl">
+          <FaUserTie /><span>Purchase Approval Form</span>
         </ExternalLink>
       </div>
 
