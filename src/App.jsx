@@ -5,7 +5,6 @@ import { FaCameraRetro, FaPaintBrush, FaAddressCard, FaRegSnowflake, FaCar } fro
 import { MdAccessTimeFilled, MdOutlineMiscellaneousServices } from "react-icons/md";
 import { AiFillPicture } from "react-icons/ai";
 import { FaCamera } from "react-icons/fa";
-import CSConcreteLogo from './assets/CSConcreteGroup.png';
 import RPLogo from './assets/RP_logo.png';
 import SupplyLogo from './assets/LFXSupply.png';
 import DriveLogo from './assets/TheDRIVE.png';
