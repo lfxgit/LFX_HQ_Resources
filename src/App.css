@@ -104,3 +104,7 @@ h1 {
 .card-img:hover {
   transform: scale(1.08);
 }
+
+.rp-logo {
+  transform: scale(1.35);
+}
