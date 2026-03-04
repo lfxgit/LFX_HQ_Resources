@@ -41,10 +41,6 @@ function Home() {
         <ExternalLink url="https://time.landscapefx.com/">
           <MdAccessTimeFilled /><span>Punch In/Out</span>
         </ExternalLink>
-
-        <ExternalLink url="https://online.adp.com/signin/v1/?APPID=Pin4NAS">
-          <FaFileInvoiceDollar /><span>ADP</span>
-        </ExternalLink>
         
         <ExternalLink url="https://platform.risepeople.com/app/#/auth/">
           <FaUserTie /><span>Rise</span>
