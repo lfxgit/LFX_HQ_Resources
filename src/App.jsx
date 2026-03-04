@@ -112,21 +112,18 @@ function Home() {
           <div className="logo-box">
             <img src={GroupLogo} alt="Group Logo" className="card-img" />
           </div>
-          <span>LFX Group</span>
         </ExternalLink>
       
         <ExternalLink url="https://rochesterplace.com/">
           <div className="logo-box">
             <img src={RPLogo} alt="Rochester Place" className="card-img" />
           </div>
-          <span>Rochester Place</span>
         </ExternalLink>
       
         <ExternalLink url="https://thedrivemagazine.com/">
           <div className="logo-box">
             <img src={DriveLogo} alt="The Drive" className="card-img" />
           </div>
-          <span>The Drive</span>
         </ExternalLink>
       </div>
     </div>
