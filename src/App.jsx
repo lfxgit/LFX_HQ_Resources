@@ -116,7 +116,7 @@ function Home() {
       
         <ExternalLink url="https://rochesterplace.com/">
           <div className="logo-box">
-            <img src={RPLogo} alt="Rochester Place" className="card-img" />
+            <img src={RPLogo} alt="Rochester Place" className="card-img rp-logo" />
           </div>
         </ExternalLink>
       
