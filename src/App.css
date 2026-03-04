@@ -84,7 +84,7 @@ h1 {
 
 /* Logo container so every logo sits in the same box */
 .logo-box {
-  width: 120px;
+  width: 2000px;
   height: 120px;
   display: flex;
   align-items: center;
