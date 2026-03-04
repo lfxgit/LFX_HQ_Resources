@@ -121,10 +121,6 @@ function Home() {
           <img src={RPLogo} alt="RP" className="card-img" />
         </ExternalLink>
 
-        <ExternalLink url="https://csconcretegroup.com/">
-          <img src={CSConcreteLogo} alt="CS Concrete" className="card-img" />
-        </ExternalLink>
-
         <ExternalLink url="https://thedrivemagazine.com/">
           <img src={DriveLogo} alt="The Drive" className="card-img" />
         </ExternalLink>
