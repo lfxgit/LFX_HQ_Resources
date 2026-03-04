@@ -53,14 +53,14 @@ function Home() {
         <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhYQKJxD9jK5PhW9EGz09kONUNk1TN0pCVlZPNENNRTAzSUw5SzVQQk9ERS4u&route=shorturl">
           <MdFormatListBulleted /><span>Purchase Approval Form</span>
         </ExternalLink>
+
+        <a href="mailto:help@landscapefx.com" className="link-card">
+          <FaHeadset /><span>IT Help Desk</span>
+        </a>
       </div>
 
       {/* ---------- ROW 2 ---------- */}
       <div className="links">
-        <a href="mailto:help@landscapefx.com" className="link-card">
-          <FaHeadset /><span>IT Help Desk</span>
-        </a>
-
         <ExternalLink url="https://forms.office.com/pages/responsepage.aspx?id=nFV4rvechk2pmiSX97OmhV21RcM1tnxJgEkvZOrjMGpURU41V0NOSVVDVVFSUVY0NTgxNDVNMzNQMi4u&route=shorturl">
           <FaPaintBrush /><span>Creative Request</span>
         </ExternalLink>
@@ -76,14 +76,14 @@ function Home() {
         <ExternalLink url="https://landscapefx.sharepoint.com/:f:/s/TheDriveStudio/EjmjYshY-NNHl5sY6XaehMQB8LGZVGrmmd8sKpZFjMwOwQ?e=IWCDI6">
           <AiFillPicture /><span>Logos</span>
         </ExternalLink>
+
+        <ExternalLink url="https://www.lfxsupplycentre.com/web/login#cids=6&action=menu">
+          <FaThLarge /><span>Odoo</span>
+        </ExternalLink>
       </div>
 
       {/* ---------- ROW 3 ---------- */}
       <div className="links">
-        <ExternalLink url="https://www.lfxsupplycentre.com/web/login#cids=6&action=menu">
-          <FaThLarge /><span>Odoo</span>
-        </ExternalLink>
-
         <ExternalLink url="https://app.companycam.com/users/sign_in">
           <FaCamera /><span>CompanyCam</span>
         </ExternalLink>
