@@ -38,10 +38,6 @@ function Home() {
           <MdAccessTimeFilled /><span>Punch In/Out</span>
         </ExternalLink>
 
-        <ExternalLink url="https://online.adp.com/signin/v1/?APPID=Pin4NAS">
-          <FaFileInvoiceDollar /><span>ADP</span>
-        </ExternalLink>
-
         <ExternalLink url="https://lf01849.purelyhr.com/?returnUrl=https%3a%2f%2flf01849.purelyhr.com%2fcpanel%2fcalendar.aspx">
           <FaUserTie /><span>PurelyHR</span>
         </ExternalLink>
