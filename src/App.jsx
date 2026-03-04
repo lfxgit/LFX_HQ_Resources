@@ -109,15 +109,24 @@ function Home() {
       <h1 className="companies-title">LFX Group Of Companies</h1>
       <div className="links">
         <ExternalLink url="https://www.landscapefx.com/">
-          <img src={GroupLogo} alt="Group Logo" className="card-img" />
+          <div className="logo-box">
+            <img src={GroupLogo} alt="Group Logo" className="card-img" />
+          </div>
+          <span>LFX Group</span>
         </ExternalLink>
-
+      
         <ExternalLink url="https://rochesterplace.com/">
-          <img src={RPLogo} alt="RP" className="card-img" />
+          <div className="logo-box">
+            <img src={RPLogo} alt="Rochester Place" className="card-img" />
+          </div>
+          <span>Rochester Place</span>
         </ExternalLink>
-
+      
         <ExternalLink url="https://thedrivemagazine.com/">
-          <img src={DriveLogo} alt="The Drive" className="card-img" />
+          <div className="logo-box">
+            <img src={DriveLogo} alt="The Drive" className="card-img" />
+          </div>
+          <span>The Drive</span>
         </ExternalLink>
       </div>
     </div>
