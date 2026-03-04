@@ -105,6 +105,7 @@ h1 {
   transform: scale(1.08);
 }
 
+/* RP Logo naturally smaller **/
 .rp-logo {
   transform: scale(1.35);
 }
